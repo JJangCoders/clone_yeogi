@@ -5,16 +5,16 @@ export default function Header() {
 			<div className="w-20 md:w-[105px] h-[14px] md:h-[18px] relative cursor-pointer">
 				<Image src="/logo.svg" alt={''} fill />
 			</div>
-			<div className="hidden md:flex gap-4 items-center">
-				<p className="px-3 h-10 flex items-center cursor-pointer hover:text-color-112">
+			<div className="items-center hidden gap-4 md:flex">
+				<p className="flex items-center h-10 px-3 cursor-pointer hover:text-color-112">
 					이벤트
 				</p>
-				<p className="px-3 h-10 flex items-center cursor-pointer hover:text-color-112">
+				<p className="flex items-center h-10 px-3 cursor-pointer hover:text-color-112">
 					고객센터
 				</p>
-				<div className="flex gap-2 rou px-3 rounded-full border h-10 items-center cursor-pointer">
+				<div className="flex items-center h-10 gap-2 px-3 border rounded-full cursor-pointer rou">
 					<Image src="/hamburger.svg" alt={''} width={20} height={20} />
-					<div className="bg-color-214 rounded-full w-6 h-6 flex items-center justify-center">
+					<div className="flex items-center justify-center w-6 h-6 rounded-full bg-color-214">
 						<Image src="/person.svg" alt={''} width={18} height={18} />
 					</div>
 				</div>
