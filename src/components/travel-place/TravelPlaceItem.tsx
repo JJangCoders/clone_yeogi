@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { formatNumberWithCommas } from "../../util/string_util";
 
-export interface TravelPlaceItemProps {
+export interface TravelPlaceProps {
   imgUrl: string;
   types: string[];
   name: string;
@@ -28,7 +28,7 @@ export default function TravelPlaceItem({
   sleepOriginalPrice,
   sleepSalePrice,
   sleepCheckInTime,
-}: TravelPlaceItemProps) {
+}: TravelPlaceProps) {
   return (
     // 아이템 영역
     <div className="flex flex-row w-full h-240pxr md:h-200pxr">
