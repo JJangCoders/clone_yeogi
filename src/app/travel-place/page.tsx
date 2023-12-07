@@ -1,5 +1,4 @@
 "use client";
-import TravelPlaceFilter from "@/components/travel-place/TravelPlaceFilter";
 import TravelPlaceItem, {
   TravelPlaceProps,
 } from "@/components/travel-place/TravelPlaceItem";
@@ -20,7 +19,6 @@ export default function TravelPlacePage() {
 
   return (
     <div>
-      <TravelPlaceFilter />
       <TravelPlaceList travelPlaces={travelPlaces} />
     </div>
   );
