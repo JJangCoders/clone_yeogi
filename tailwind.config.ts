@@ -21,6 +21,10 @@ const config: Config = {
 				'color-214': 'rgb(214,214,214)',
 				'color-112': 'rgb(112,112,112)',
 				'color-194': 'rgb(194,194,194)',
+				'color-light-blue': 'rgb(18,115,228)',
+			},
+			boxShadow: {
+				box: '0px 2px 16px rgba(0, 0, 0, 0.08)',
 			},
 			spacing: Array.from({ length: 1000 }, (_, index) => {
 				const value = pxToRem(index + 1);
